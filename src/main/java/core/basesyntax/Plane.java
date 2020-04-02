@@ -13,7 +13,7 @@ public class Plane {
     private int capacity;
     private int maxHeight;
 
-    public Plane(PlaneBuilder planeBuilder) {
+    private Plane(PlaneBuilder planeBuilder) {
         this.name = planeBuilder.name;
         this.color = planeBuilder.color;
         this.speed = planeBuilder.speed;
